@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "age": 28,
+      "role": "programmer"
+    },
+    {
+      "id": 4,
+      "name": "Bob Brown",
+      "age": 25,
+      "role": "programmer"
+    },
+    {
+      "id": 11,
+      "name": "Ivy Hall",
+      "age": 26,
+      "role": "programmer"
+    },
+    {
+      "id": 15,
+      "name": "Mia Scott",
+      "age": 27,
+      "role": "programmer"
+    },
+    {
+      "id": 18,
+      "name": "Paul Gonzalez",
+      "age": 23,
+      "role": "programmer"
+    }
+  ]
+}

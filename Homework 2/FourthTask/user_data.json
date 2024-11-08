@@ -1,0 +1,25 @@
+{
+    "users": [
+      { "id": 1, "name": "John Doe", "age": 34, "role": "manager" },
+      { "id": 2, "name": "Jane Smith", "age": 28, "role": "programmer" },
+      { "id": 3, "name": "Alice Johnson", "age": 42, "role": "professor" },
+      { "id": 4, "name": "Bob Brown", "age": 25, "role": "programmer" },
+      { "id": 5, "name": "Charlie Davis", "age": 30, "role": "manager" },
+      { "id": 6, "name": "Dana White", "age": 25, "role": "professor" },
+      { "id": 7, "name": "Eve Harris", "age": 29, "role": "manager" },
+      { "id": 8, "name": "Frank Clark", "age": 40, "role": "programmer" },
+      { "id": 9, "name": "Grace Lewis", "age": 22, "role": "professor" },
+      { "id": 10, "name": "Hank Walker", "age": 38, "role": "manager" },
+      { "id": 11, "name": "Ivy Hall", "age": 26, "role": "programmer" },
+      { "id": 12, "name": "Jack Allen", "age": 31, "role": "manager" },
+      { "id": 13, "name": "Kara Young", "age": 33, "role": "professor" },
+      { "id": 14, "name": "Leo King", "age": 45, "role": "manager" },
+      { "id": 15, "name": "Mia Scott", "age": 27, "role": "programmer" },
+      { "id": 16, "name": "Nate Adams", "age": 32, "role": "manager" },
+      { "id": 17, "name": "Olivia Baker", "age": 39, "role": "professor" },
+      { "id": 18, "name": "Paul Gonzalez", "age": 23, "role": "programmer" },
+      { "id": 19, "name": "Quincy Nelson", "age": 36, "role": "manager" },
+      { "id": 20, "name": "Rita Mitchell", "age": 41, "role": "professor" }
+    ]
+  }
+  
