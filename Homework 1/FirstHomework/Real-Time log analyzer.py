@@ -1,17 +1,18 @@
 from threading import Thread
 from queue import Queue,Empty
-
+import time
 queue = Queue()
 
 def log_reader(fs):
-    ls = open(fs,"r+")
-    read_line = ls.read()
-    new_txt = open("New_File.txt","w")
-    words = read_line.split()
-    for word in words:
-        new_txt.write(f"{word} ")
-        queue.put(word)
-        
+    with open("server_log.txt") as fs:
+        fs.seek(0,2)
+        while True:
+            line = fs.readline()
+            if line:
+                queue.put(line)
+            else:
+                time.sleep(0.1)
+
 def log_analyzer():
     while True:
         try:
@@ -19,9 +20,8 @@ def log_analyzer():
             if line == None:
                 break
             
-            if "ERROR:" in line:
+            if "ERROR" in line:
                 print("Error")
-            queue.task_done()
         
         except Empty:
             continue
@@ -37,4 +37,3 @@ if __name__ == "__main__":
     
     reader_thread.join()
     analyzer_thread.join()
-    
