@@ -3,7 +3,6 @@
     "name": "Alice",
     "email": "alice@example.com",
     "password": "secure1234",
-    "id": 3,
-    "user_id": 5
+    "id": 3
   }
 ]
