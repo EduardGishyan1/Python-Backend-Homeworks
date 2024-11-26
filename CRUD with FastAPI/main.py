@@ -249,4 +249,4 @@ async def del_task(id:int):
     
 if __name__ == "__main__":
     print(f"server is running on {host}:{port} ")
-    uvicorn.run("main:app",host = host,port = port,reload = True)
+    uvicorn.run("main:app",host = host,port = port)
