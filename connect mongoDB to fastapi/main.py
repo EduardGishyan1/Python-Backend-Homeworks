@@ -35,4 +35,4 @@ async def get_book_by_id(id):
   return books
 
 if __name__ == '__main__':
-  uvicorn.run('main:app', port=3005, reload=True)
+  uvicorn.run('main:app', port=3001, reload=True)
